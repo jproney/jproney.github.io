@@ -1,0 +1,224 @@
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 80px;
+  width: 100%;    /* adjust this value to your liking */
+  margin: 0 0 0 0
+
+}
+
+
+.flex-vertical {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  width: 30%;    /* adjust this value to your liking */
+  flex-direction: column; 
+  flex-shrink: 0;
+}
+
+.profile-pic {
+  width: 300px;
+  box-shadow: -15px 15px 5px rgba(164,25,51,255);
+  flex-shrink: 0;
+}
+
+.bio {
+  max-width: 800px;
+
+  h1 {
+    font-weight: bold;
+    font-size: 32px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  a {
+    color: rgba(164,25,51,255);
+  }
+  flex-shrink: 1;
+
+}
+
+.site-nav {
+  float: left;
+  font-size: 24px;
+  font-color: #111;
+}
+
+.site-title {
+  margin-right: 20px;
+  font-size: 24px;
+  color: rgba(164,25,51,255);
+
+}
+
+.wrapper {
+  padding-left: 0px; /* adjust this value as needed */
+  padding-right: 0px; /* adjust this value as needed */
+  max-width: 65%
+}
+
+.social {
+  width : 40px;
+  padding-right: 20px;
+
+}
+
+
+.iconbar{
+  margin: 0 0% 0 0%; /* top, right, bottom, left */
+  display: flex;
+  flex-direction: row;
+}
+
+.site-title, .site-title:visited {
+    color: #111;
+    font-size: 24px;
+}
+
+/*
+.site-nav .page-link:hover {
+  text-shadow: 0px 0px 5px rgba(0, 123, 255, 0.8);
+}
+.site-title:hover {
+  text-shadow: 0px 0px 5px rgba(0, 123, 255, 0.8);
+}
+*/
+/*
+body {
+  background: linear-gradient(to top, #1fa2ff 5%, #12d8fa 25%, #a6ffcb 130%);  /* change these to any colors you prefer 
+} */
+
+
+.page-content {
+  padding: 5% 0% 5% 0%; /* top, right, bottom, left */
+  flex: 1;
+  
+}
+
+.site-header {
+  /* other styles */
+  background: #BEBEBE;
+  border: none;
+}
+
+
+.site-header .site-title,
+.site-header .page-link {
+  color: rgba(164,25,51,255);
+  font-weight: bold;
+  /* Adjust this as needed */
+}
+
+
+.pubitem {
+  margin: 2em 0;
+  line-height: 1em;
+  display: flex;
+  flex-direction: row;
+}
+
+.pubdata{
+  display: flex;
+  flex-direction: column;
+}
+
+.pubtitle {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+.pubauthors,
+.pubinfo {
+  font-size: 12px;
+  margin-bottom: 0.75em;
+}
+
+
+.pubslist {
+    display: block
+    
+}
+
+.pubteaser {
+  clear: both;
+}
+
+.pubteaser a {
+  float: left;
+  margin-right: 2em;
+}
+
+.pubteaser img {
+  width: 100px;
+  border: 1px solid black;
+  flex-shrink: 0;
+  min-width: 100px;
+}
+
+
+.publinks {
+  font-size: 75%;
+}
+
+
+a:link, a:visited, a:hover {
+  color: rgba(164,25,51,255);
+}
+
+
+/* Media Query for medium devices (tablets) */
+@media only screen and (max-width: 1200px) {
+  .flex-container {
+    flex-direction: column;
+  }
+  .flex-vertical{
+    width: 100%;
+  }
+}
+
+
+/* Media Query for small devices  */
+@media only screen and (max-width: 500px) {
+  .flex-container {
+    flex-direction: column;
+  }
+  .flex-vertical{
+    width: 100%;
+  }
+
+  .bio{  
+
+    p {
+       font-size: 16px;
+    }
+  }
+
+.pubtitle {
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+.pubauthors,
+.pubinfo {
+  font-size: 10px;
+  margin-bottom: 0.75em;
+}
+
+}
+
+
+footer {
+  background-color: #BEBEBE;  /* Light gray background */
+  color: rgba(164,25,51,255);               /* Dark gray text color */
+  padding: 20px 0;           /* 20px padding top and bottom */
+  text-align: center;        /* Center the text */
+}
