@@ -21,7 +21,7 @@ layout: nofoot
   <div class="bio">
     <h1>Hi, I'm James Roney.</h1>
     <p>
-I'm currently a Research Engineer at <a href="https://www.deshawresearch.com"> DE Shaw Research</a> in New York, where I work on problems at the intersection of machine learning  and drug discovery. I graduated from Harvard in 2022, where I did research on various topics in computer science, statistics, and biology. I'm broadly interested in applying computational methods to problems involving biological structure. My specific areas of interest include the use of machine learning to help with protein structure modeling, protein design, structure-based drug design, and molecular simulation.
+I'm a computational biology PhD student at MIT, where I am lucky to be supported by the <a href="https://www.hertzfoundation.org/the-fellowship/"> Hertz Fellowship</a>. From 2022-2024 I was a research engineer at <a href="https://www.deshawresearch.com"> DE Shaw Research</a> in New York, and before that I completed my undergraduate studies at Harvard. I'm broadly interested in applying computational methods to problems involving biological structure. My specific areas of interest include the use of machine learning to help with protein structure modeling, protein design, structure-based drug design, and molecular simulation.
     </p>
   </div>
 </div>
